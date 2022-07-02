@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*::after {
+    box-sizing: border-box;
+}
+
+*::before {
+    box-sizing: border-box;
+}
+
+
+/* 换行 */
+
+#demo {
+    word-break: break-all;
+}
+
+#TaiChi {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+
+#TaiChi::before {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+#TaiChi::after {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+@media (max-width: 500px) {
+    #demo {
+        height: 50vh;
+        overflow: auto;
+    }
+    #TaiChi {
+        position: relative;
+        height: 50vh;
+        top: 0;
+        right: 0;
+    }
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
