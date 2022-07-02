@@ -1,2 +1,0 @@
-*{box-sizing:border-box;margin:0;padding:0}:after,:before{box-sizing:border-box}#demo{word-break:break-all}#TaiChi{position:fixed;top:20px;left:50%;transform:translate(-50%)}#TaiChi:before,#TaiChi:after{content:"";display:block;position:absolute}@media (max-width:500px){#demo{height:50vh;overflow:auto}#TaiChi{height:50vh;position:relative;top:0;right:0}}
-/*# sourceMappingURL=index.66c704e3.css.map */
